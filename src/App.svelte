@@ -23,6 +23,7 @@ window.onload = () => {
     </div>
     <!-- User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered -->
     <div id="output">
+        <p id="result"></p>
     </div>
 </main>
 

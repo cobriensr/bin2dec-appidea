@@ -22,8 +22,6 @@ export default function binConvert(event: Event) {
 }
 
 function append(result: number) {
-    const output = document.getElementById("output");
-    const p = document.createElement("p");
-    p.textContent = "The converted decimal number is " + result.toString();
-    output?.appendChild(p);
+    const resultPrint = document.getElementById("result");
+    resultPrint!.innerHTML = "The converted decimal number is " + result.toString();
 }
