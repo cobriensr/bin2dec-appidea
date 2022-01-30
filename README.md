@@ -1,20 +1,12 @@
-# Svelte
+# Binary to Decimal Converter
 
-This directory is a brief example of a [Svelte](https://svelte.dev/) site that can be deployed to Vercel with zero-configuration. If you need to use API Routes, we recommend using our [SvelteKit example](https://github.com/vercel/vercel/tree/main/examples/sveltekit).
-
-## Deploy Your Own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/svelte&template=svelte)
-
-_Live Example: https://svelte.vercel.app_
+This application takes an 8 digit binary number and converts to a decimal number with a maximum value of 255.
 
 ## Getting Started
 
-```bash
-npx degit sveltejs/template my-svelte-project
-cd my-svelte-project
-npm install
-npm run dev
-```
+To run this application locally, you can clone this repository and then run the following commands:
+
+1. npm install
+2. npm run dev
 
 Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
