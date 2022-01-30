@@ -4,7 +4,7 @@ import { bindigit } from '../stores/content';
 // This challenge requires that the developer implementing it follow these constraints:
 // Arrays may not be used to contain the binary digits entered by the user
 // Determining the decimal equivalent of a particular binary digit in the sequence must be calculated using a single mathematical function
-export default function binConvert(event: Event) {
+export default function binConvert(event: Event): void {
     event.preventDefault();
     // retrieve value from svelte store object
     let bindigitValue: string = get(bindigit);
