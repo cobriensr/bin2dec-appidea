@@ -22,9 +22,11 @@ window.onload = () => {
         <button form="binConvertForm" type="submit">Convert!</button>
     </div>
     <!-- User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered -->
-    <div>
-        <lable for="result">Decimal Converted Number:</lable>
-        <input type="text" id="result">
+    <div id="output">
+        <form id="unused">
+            <label for="result">Decimal Converted Number:</label>
+            <input type="text" id="result" name="outputBox" placeholder=0>
+        </form>
     </div>
 </main>
 
@@ -40,5 +42,9 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 1em 1em 1em 1em
+}
+#output {
+    display: flex;
+    justify-content: center;
 }
 </style>
