@@ -30,21 +30,8 @@ window.onload = () => {
     </div>
 </main>
 
-<style>
-h1 {
-    text-align: center;
-}
-#inputBox {
-    display: flex;
-    justify-content: center;
-}
-#submitBtn {
-    display: flex;
-    justify-content: center;
-    margin: 1em 1em 1em 1em
-}
-#output {
-    display: flex;
-    justify-content: center;
-}
+<style lang="postcss" global>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 </style>
